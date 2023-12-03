@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Define complex type for SportsLeague -->
+  <xs:complexType name="SportsLeagueType">
+    <xs:sequence>
+      <xs:element name="label" type="xs:string"/>
+      <xs:element name="prize" type="xs:integer"/>
+      <xs:element name="currentSeason" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define complex type for Athlete -->
+  <xs:complexType name="AthleteType">
+    <xs:sequence>
+      <xs:element name="jerseyNumber" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define complex type for Captain -->
+  <xs:complexType name="CaptainType">
+    <!-- Add any additional elements or attributes for Captain here -->
+  </xs:complexType>
+
+  <!-- Define complex type for SportsTeam -->
+  <xs:complexType name="SportsTeamType">
+    <xs:sequence>
+      <xs:element name="label" type="xs:string"/>
+      <xs:element name="teamValue" type="xs:double"/>
+      <xs:element name="teamsInLeague" type="SportsLeagueType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="leagueWinner" type="SportsLeagueType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="playerInTeam" type="AthleteType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="leadTeam" type="CaptainType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define the root element -->
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Use elements for the hierarchy -->
+        <xs:element name="sportsTeam" type="SportsTeamType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

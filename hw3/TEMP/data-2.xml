@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xml="http://www.w3.org/XML/1998/namespace">
+
+  <!-- Instance 1: SportsTeam -->
+  <sportsTeam>
+    <label xml:lang="en">Lakers</label>
+    <teamValue>2934.8</teamValue>
+    <teamsInLeague>
+      <label xml:lang="en">nba</label>
+      <prize>3000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </teamsInLeague>
+    <teamsInLeague>
+      <label xml:lang="en">wnba</label>
+      <prize>6000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </teamsInLeague>
+    <teamsInLeague>
+      <label xml:lang="en">fiba</label>
+      <prize>500</prize>
+      <currentSeason xml:lang="en">winter</currentSeason>
+    </teamsInLeague>
+    <leagueWinner>
+      <label xml:lang="en">fiba</label>
+      <prize>500</prize>
+      <currentSeason xml:lang="en">winter</currentSeason>
+    </leagueWinner>
+    <leagueWinner>
+      <label xml:lang="en">wnba</label>
+      <prize>6000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </leagueWinner>
+    <playerInTeam>
+      <jerseyNumber>10</jerseyNumber>
+    </playerInTeam>
+    <leadTeam>
+        <jerseyNumber>10</jerseyNumber>
+    </leadTeam>
+  </sportsTeam>
+
+  <!-- Instance 2: SportsTeam -->
+  <sportsTeam>
+    <label xml:lang="en">Knicks</label>
+    <teamValue>9214.947</teamValue>
+    <teamsInLeague>
+      <label xml:lang="en">nba</label>
+      <prize>3000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </teamsInLeague>
+    <leagueWinner>
+      <label xml:lang="en">nba</label>
+      <prize>3000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </leagueWinner>
+    <playerInTeam>
+      <jerseyNumber>7</jerseyNumber>
+    </playerInTeam>
+    <playerInTeam>
+      <jerseyNumber>9</jerseyNumber>
+    </playerInTeam>
+    <leadTeam>
+        <jerseyNumber>7</jerseyNumber>
+    </leadTeam>
+  </sportsTeam>
+
+  <!-- Instance 3: SportsTeam -->
+  <sportsTeam>
+    <label xml:lang="en">Bulls</label>
+    <teamValue>7528.99</teamValue>
+    <teamsInLeague>
+      <label xml:lang="en">nba</label>
+      <prize>3000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </teamsInLeague>
+    <teamsInLeague>
+      <label xml:lang="en">wnba</label>
+      <prize>6000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </teamsInLeague>
+    <playerInTeam>
+      <jerseyNumber>17</jerseyNumber>
+    </playerInTeam>
+    <leadTeam>
+        <jerseyNumber>17</jerseyNumber>
+    </leadTeam>
+  </sportsTeam>
+</root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Define complex type for SportsLeague -->
+  <xs:complexType name="SportsLeagueType">
+    <xs:sequence>
+      <xs:element name="label" type="xs:string"/>
+      <xs:element name="prize" type="xs:string"/>
+      <xs:element name="currentSeason" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define complex type for SportsTeam -->
+  <xs:complexType name="SportsTeamType">
+    <xs:sequence>
+      <xs:element name="label" type="xs:string"/>
+      <xs:element name="teamValue" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define complex type for SportsEvent -->
+  <xs:complexType name="SportsEventType">
+    <xs:sequence>
+      <xs:element name="startDate" type="xs:dateTime"/>
+      <xs:element name="score" type="xs:string"/>
+      <xs:element name="gamesInLeague" type="SportsLeagueType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="homeTeam" type="SportsTeamType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="awayTeam" type="SportsTeamType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define the root element -->
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Use elements for the hierarchy -->
+        <xs:element name="sportsEvent" type="SportsEventType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,45 @@
+  <?xml version="1.0" encoding="UTF-8"?> 
+  <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+
+    <!-- Define complex type for Person --> 
+    <xs:complexType name="Person"> 
+      <xs:sequence> 
+        <xs:element name="firstName" type="xs:string"/> 
+        <xs:element name="surname" type="xs:string"/> 
+        <xs:element name="birthDate" type="xs:dateTime"/> 
+        <xs:element name="middleName" type="xs:string" minOccurs="0" maxOccurs="unbounded"/> 
+        <xs:element name="athlete" type="Athlete" minOccurs="0"/> <!-- Optional athlete element -->
+      </xs:sequence> 
+    </xs:complexType> 
+
+    <!-- Define complex type for Athlete --> 
+    <xs:complexType name="Athlete"> 
+      <xs:complexContent> 
+        <xs:extension base="Person"> 
+          <xs:sequence> 
+            <xs:element name="jerseyNumber" type="xs:integer"/> 
+            <xs:element name="captain" type="Captain" minOccurs="0"/> <!-- Optional captain element -->
+          </xs:sequence> 
+        </xs:extension> 
+      </xs:complexContent> 
+    </xs:complexType> 
+
+    <!-- Define complex type for Captain --> 
+    <xs:complexType name="Captain"> 
+      <xs:complexContent> 
+        <xs:extension base="Athlete"> 
+          <!-- Add any additional elements or attributes for Captain here --> 
+        </xs:extension> 
+      </xs:complexContent> 
+    </xs:complexType> 
+
+    <!-- Define the root element --> 
+    <xs:element name="root"> 
+      <xs:complexType> 
+        <xs:sequence> 
+          <xs:element name="person" type="Person"/> <!-- Root element is now a Person -->
+        </xs:sequence> 
+      </xs:complexType> 
+    </xs:element> 
+
+  </xs:schema>

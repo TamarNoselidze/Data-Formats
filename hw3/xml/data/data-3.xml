@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xml="http://www.w3.org/XML/1998/namespace">
+  <!-- Instance 1: SportsEvent (Game1) -->
+  <sportsEvent>
+    <startDate>2023-08-28T14:00:00Z</startDate>
+    <score>112-97</score>
+    <gamesInLeague>
+      <label xml:lang="en">nba</label>
+      <prize xml:lang="en">3000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </gamesInLeague>
+    <homeTeam>
+      <label xml:lang="en">Knicks</label>
+      <teamValue>9214.947</teamValue>
+    </homeTeam>
+    <awayTeam>
+      <label xml:lang="en">Lakers</label>
+      <teamValue>2934.8</teamValue>
+    </awayTeam>
+  </sportsEvent>
+
+  <!-- Instance 2: SportsEvent (Game2) -->
+  <sportsEvent>
+    <startDate>2023-08-30T14:00:00Z</startDate>
+    <score>96-104</score>
+    <gamesInLeague>
+      <label xml:lang="en">wnba</label>
+      <prize xml:lang="en">6000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </gamesInLeague>
+    <homeTeam>
+      <label xml:lang="en">Bulls</label>
+      <teamValue>7528.99</teamValue>
+    </homeTeam>
+    <awayTeam>
+      <label xml:lang="en">Lakers</label>
+      <teamValue>2934.8</teamValue>
+    </awayTeam>
+  </sportsEvent>
+
+  <!-- Instance 3: SportsEvent (Game3) -->
+  <sportsEvent>
+    <startDate>2023-08-26T14:00:00Z</startDate>
+    <score>132-135</score>
+    <gamesInLeague>
+      <label xml:lang="en">nba</label>
+      <prize xml:lang="en">3000</prize>
+      <currentSeason xml:lang="en">summer</currentSeason>
+    </gamesInLeague>
+    <homeTeam>
+      <label xml:lang="en">Bulls</label>
+      <teamValue>7528.99</teamValue>
+    </homeTeam>
+    <awayTeam>
+      <label xml:lang="en">Knicks</label>
+      <teamValue>9214.947</teamValue>
+    </awayTeam>
+  </sportsEvent>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Define complex type for SportsTeam -->
+  <xs:complexType name="SportsTeamType">
+    <xs:sequence>
+      <xs:element name="label" type="xs:string"/>
+      <xs:element name="teamValue" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define complex type for SportsLeague -->
+  <xs:complexType name="SportsLeagueType">
+    <xs:sequence>
+      <xs:element name="label" type="xs:string"/>
+      <xs:element name="prize" type="xs:string"/>
+      <xs:element name="currentSeason" type="xs:string"/>
+      <xs:element name="leagueWinner" type="SportsTeamType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="teamsInLeague" type="SportsTeamType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define the root element -->
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Use elements for the hierarchy -->
+        <xs:element name="sportsLeague" type="SportsLeagueType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
