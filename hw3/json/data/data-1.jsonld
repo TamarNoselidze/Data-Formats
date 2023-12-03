@@ -1,0 +1,85 @@
+{
+    "root": {
+      "@xmlns:xml": "http://www.w3.org/XML/1998/namespace",
+      "person": [
+        {
+          "firstName": {
+            "@xml:lang": "en",
+            "#text": "Avaz"
+          },
+          "surname": {
+            "@xml:lang": "en",
+            "#text": "Ahmadov"
+          },
+          "birthDate": "2003-11-27T00:00:00Z",
+          "athlete": {
+            "jerseyNumber": "17",
+            "captain": null
+          }
+        },
+        {
+          "firstName": {
+            "@xml:lang": "en",
+            "#text": "Tamara"
+          },
+          "surname": {
+            "@xml:lang": "en",
+            "#text": "Noselidze"
+          },
+          "birthDate": "2002-11-26T00:00:00Z",
+          "middleName": {
+            "@xml:lang": "es",
+            "#text": "Dedopali"
+          },
+          "athlete": {
+            "jerseyNumber": "7",
+            "captain": null
+          }
+        },
+        {
+          "firstName": {
+            "@xml:lang": "en",
+            "#text": "Kareem"
+          },
+          "surname": {
+            "@xml:lang": "en",
+            "#text": "Elsewirky"
+          },
+          "birthDate": "2002-04-20T00:00:00Z",
+          "middleName": [
+            {
+              "@xml:lang": "en",
+              "#text": "Hamed"
+            },
+            {
+              "@xml:lang": "en",
+              "#text": "Osman"
+            },
+            {
+              "@xml:lang": "en",
+              "#text": "Abdelaal"
+            }
+          ],
+          "athlete": {
+            "jerseyNumber": "10",
+            "captain": null
+          }
+        },
+        {
+          "firstName": {
+            "@xml:lang": "en",
+            "#text": "Penda"
+          },
+          "surname": {
+            "@xml:lang": "en",
+            "#text": "Smajljaj"
+          },
+          "birthDate": "2003-08-28T00:00:00Z",
+          "athlete": {
+            "jerseyNumber": "9"
+          }
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+      "SportsLeagueType": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "prize": { "type": "integer" },
+          "currentSeason": { "type": "string" }
+        },
+        "required": ["label", "prize", "currentSeason"],
+        "additionalProperties": false
+      },
+      "AthleteType": {
+        "type": "object",
+        "properties": {
+          "jerseyNumber": { "type": "integer" }
+        },
+        "required": ["jerseyNumber"],
+        "additionalProperties": false
+      },
+      "CaptainType": {
+        "type": "object",
+        "additionalProperties": true
+      },
+      "SportsTeamType": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "teamValue": { "type": "number" },
+          "teamsInLeague": { "type": "array", "items": { "$ref": "#/definitions/SportsLeagueType" } },
+          "leagueWinner": { "type": "array", "items": { "$ref": "#/definitions/SportsLeagueType" } },
+          "playerInTeam": { "type": "array", "items": { "$ref": "#/definitions/AthleteType" } },
+          "leadTeam": { "$ref": "#/definitions/CaptainType" }
+        },
+        "required": ["label", "teamValue", "leadTeam"],
+        "additionalProperties": false
+      }
+    },
+    "type": "object",
+    "properties": {
+      "root": {
+        "type": "object",
+        "properties": {
+          "sportsTeam": { "$ref": "#/definitions/SportsTeamType", "minProperties": 1 }
+        },
+        "required": ["sportsTeam"],
+        "additionalProperties": false
+      }
+    }
+  }
+  

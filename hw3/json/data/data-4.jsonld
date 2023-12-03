@@ -1,0 +1,111 @@
+{
+    "root": {
+      "@xmlns:xml": "http://www.w3.org/XML/1998/namespace",
+      "sportsLeague": [
+        {
+          "label": {
+            "@xml:lang": "en",
+            "#text": "nba"
+          },
+          "prize": {
+            "@xml:lang": "en",
+            "#text": "3000"
+          },
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "summer"
+          },
+          "teamsInLeague": [
+            {
+              "label": {
+                "@xml:lang": "en",
+                "#text": "Lakers"
+              },
+              "teamValue": "2934.8"
+            },
+            {
+              "label": {
+                "@xml:lang": "en",
+                "#text": "Knicks"
+              },
+              "teamValue": "9214.947"
+            },
+            {
+              "label": {
+                "@xml:lang": "en",
+                "#text": "Bulls"
+              },
+              "teamValue": "7528.99"
+            }
+          ],
+          "leagueWinner": {
+            "label": {
+              "@xml:lang": "en",
+              "#text": "Knicks"
+            },
+            "teamValue": "9214.947"
+          }
+        },
+        {
+          "label": {
+            "@xml:lang": "en",
+            "#text": "wnba"
+          },
+          "prize": "6000",
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "summer"
+          },
+          "teamsInLeague": [
+            {
+              "label": {
+                "@xml:lang": "en",
+                "#text": "Lakers"
+              },
+              "teamValue": "2934.8"
+            },
+            {
+              "label": {
+                "@xml:lang": "en",
+                "#text": "Bulls"
+              },
+              "teamValue": "7528.99"
+            }
+          ],
+          "leagueWinner": {
+            "label": {
+              "@xml:lang": "en",
+              "#text": "Lakers"
+            },
+            "teamValue": "2934.8"
+          }
+        },
+        {
+          "label": {
+            "@xml:lang": "en",
+            "#text": "fiba"
+          },
+          "prize": "500",
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "winter"
+          },
+          "teamsInLeague": {
+            "label": {
+              "@xml:lang": "en",
+              "#text": "Lakers"
+            },
+            "teamValue": "2934.8"
+          },
+          "leagueWinner": {
+            "label": {
+              "@xml:lang": "en",
+              "#text": "Lakers"
+            },
+            "teamValue": "2934.8"
+          }
+        }
+      ]
+    }
+  }
+  

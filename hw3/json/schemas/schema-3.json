@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+      "SportsLeagueType": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "prize": { "type": "string" },
+          "currentSeason": { "type": "string" }
+        },
+        "required": ["label", "prize", "currentSeason"],
+        "additionalProperties": false
+      },
+      "SportsTeamType": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "teamValue": { "type": "number" }
+        },
+        "required": ["label", "teamValue"],
+        "additionalProperties": false
+      },
+      "SportsEventType": {
+        "type": "object",
+        "properties": {
+          "startDate": { "type": "string", "format": "date-time" },
+          "score": { "type": "string" },
+          "gamesInLeague": { "$ref": "#/definitions/SportsLeagueType", "type": "object", "minProperties": 1 },
+          "homeTeam": { "$ref": "#/definitions/SportsTeamType", "type": "object", "minProperties": 1 },
+          "awayTeam": { "$ref": "#/definitions/SportsTeamType", "type": "object", "minProperties": 1 }
+        },
+        "required": ["startDate", "score", "gamesInLeague", "homeTeam", "awayTeam"],
+        "additionalProperties": false
+      }
+    },
+    "type": "object",
+    "properties": {
+      "root": {
+        "type": "object",
+        "properties": {
+          "sportsEvent": { "$ref": "#/definitions/SportsEventType", "minProperties": 1 }
+        },
+        "required": ["sportsEvent"],
+        "additionalProperties": false
+      }
+    }
+  }
+  

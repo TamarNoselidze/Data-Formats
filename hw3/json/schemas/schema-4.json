@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+      "SportsTeamType": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "teamValue": { "type": "number" }
+        },
+        "required": ["label", "teamValue"],
+        "additionalProperties": false
+      },
+      "SportsLeagueType": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "prize": { "type": "string" },
+          "currentSeason": { "type": "string" },
+          "leagueWinner": { "$ref": "#/definitions/SportsTeamType", "type": "object", "minProperties": 1 },
+          "teamsInLeague": { "type": "array", "items": { "$ref": "#/definitions/SportsTeamType" } }
+        },
+        "required": ["label", "prize", "currentSeason"],
+        "additionalProperties": false
+      }
+    },
+    "type": "object",
+    "properties": {
+      "root": {
+        "type": "object",
+        "properties": {
+          "sportsLeague": { "$ref": "#/definitions/SportsLeagueType", "minProperties": 1 }
+        },
+        "required": ["sportsLeague"],
+        "additionalProperties": false
+      }
+    }
+  }
+  
