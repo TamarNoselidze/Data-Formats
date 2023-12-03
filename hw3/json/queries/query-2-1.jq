@@ -1,0 +1,1 @@
+jq '.root.sportsTeam[] | select((.teamsInLeague | any(.prize | tonumber > 5000)) or (.leagueWinner | any(.prize | tonumber > 5000))) | "\(.label.#text): Prize Over 5000"'

@@ -1,0 +1,1 @@
+jq '.root.sportsEvent[] | "\(.homeTeam.label.#text): Value \(.homeTeam.teamValue)"'

@@ -1,0 +1,1 @@
+jq '.root.sportsLeague[] | "\(.label.#text) League Winner: \(.leagueWinner.label.#text)"'
