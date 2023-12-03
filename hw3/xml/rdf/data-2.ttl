@@ -1,0 +1,46 @@
+# @base &lt;http://example.org/&gt; .
+@prefix ex: &lt;http://example.org/vocabulary/&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix roh: &lt;http://w3id.org/roh/0.3&gt; .
+@prefix vivo: &lt;http://vivoweb.org/ontology/core&gt; .
+@prefix dbo: &lt;https://dbpedia.org/ontology/&gt; .
+@prefix schema: &lt;https://schema.org/&gt; .
+
+@prefix teams: &lt;http://example.org/teams/&gt; .
+@prefix games: &lt;http://example.org/games/&gt; .
+@prefix leagues: &lt;http://example.org/leagues/&gt; .
+
+teams:Lakers a dbo:SportsTeam ;
+    rdfs:label "Lakers"@en ;
+    ex:teamValue "2934.8"^^xsd:double ;
+    ex:teamsInLeague leagues:nba ;
+    ex:teamsInLeague leagues:wnba ;
+    ex:teamsInLeague leagues:fiba ;
+    ex:leagueWinner leagues:fiba ;
+    ex:leagueWinner leagues:wnba ;
+    dbo:playerInTeam ex:Player10 ;
+    dbo:leadTeam ex:Captain10 ;
+.
+
+teams:Knicks a dbo:SportsTeam ;
+    rdfs:label "Knicks"@en ;
+    ex:teamValue "9214.947"^^xsd:double ;
+    ex:teamsInLeague leagues:nba ;
+    ex:leagueWinner leagues:nba ;
+    dbo:playerInTeam ex:Player7 ;
+    dbo:playerInTeam ex:Player9 ;
+    dbo:leadTeam ex:Captain7 ;
+.
+
+teams:Bulls a dbo:SportsTeam ;
+    rdfs:label "Bulls"@en ;
+    ex:teamValue "7528.99"^^xsd:double ;
+    ex:teamsInLeague leagues:nba ;
+    ex:teamsInLeague leagues:wnba ;
+    dbo:playerInTeam ex:Player17 ;
+    dbo:leadTeam ex:Captain17 ;
+.
+

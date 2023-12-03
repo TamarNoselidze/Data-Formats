@@ -1,0 +1,69 @@
+# @base &lt;http://example.org/&gt; .
+@prefix ex: &lt;http://example.org/vocabulary/&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix roh: &lt;http://w3id.org/roh/0.3&gt; .
+@prefix vivo: &lt;http://vivoweb.org/ontology/core&gt; .
+@prefix dbo: &lt;https://dbpedia.org/ontology/&gt; .
+@prefix schema: &lt;https://schema.org/&gt; .
+
+@prefix teams: &lt;http://example.org/teams/&gt; .
+@prefix games: &lt;http://example.org/games/&gt; .
+@prefix leagues: &lt;http://example.org/leagues/&gt; .
+
+games:g1 a schema:SportsEvent ;
+    schema:startDate "2023-08-28T14:00:00Z"^^xsd:dateTime ;
+    ex:score "112-97"@en ;
+    schema:awayTeam teams:Lakers ;
+    schema:homeTeam teams:Knicks .
+
+leagues:nba a dbo:SportsLeague ;
+    ex:prize 3000 ;
+    dbo:currentSeason "summer"@en .
+
+teams:Knicks a dbo:SportsTeam ;
+    rdfs:label "Knicks"@en ;
+    ex:teamValue 9214.947 .
+
+teams:Lakers a dbo:SportsTeam ;
+    rdfs:label "Lakers"@en ;
+    ex:teamValue 2934.8 .
+
+games:g2 a schema:SportsEvent ;
+    schema:startDate "2023-08-30T14:00:00Z"^^xsd:dateTime ;
+    ex:score "96-104"@en ;
+    schema:awayTeam teams:Lakers ;
+    schema:homeTeam teams:Bulls .
+
+leagues:wnba a dbo:SportsLeague ;
+    ex:prize 6000 ;
+    dbo:currentSeason "summer"@en .
+
+teams:Bulls a dbo:SportsTeam ;
+    rdfs:label "Bulls"@en ;
+    ex:teamValue 7528.99 .
+
+teams:Lakers a dbo:SportsTeam ;
+    rdfs:label "Lakers"@en ;
+    ex:teamValue 2934.8 .
+
+games:g3 a schema:SportsEvent ;
+    schema:startDate "2023-08-26T14:00:00Z"^^xsd:dateTime ;
+    ex:score "132-135"@en ;
+    schema:awayTeam teams:Knicks ;
+    schema:homeTeam teams:Bulls .
+
+leagues:nba a dbo:SportsLeague ;
+    ex:prize 3000 ;
+    dbo:currentSeason "summer"@en .
+
+teams:Bulls a dbo:SportsTeam ;
+    rdfs:label "Bulls"@en ;
+    ex:teamValue 7528.99 .
+
+teams:Knicks a dbo:SportsTeam ;
+    rdfs:label "Knicks"@en ;
+    ex:teamValue 9214.947 .
+
