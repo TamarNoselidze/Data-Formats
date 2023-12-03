@@ -13,8 +13,8 @@
           },
           "birthDate": "2003-11-27T00:00:00Z",
           "athlete": {
-            "jerseyNumber": "17",
-            "captain": null
+            "jerseyNumber": 17,
+            "captain": {}
           }
         },
         {
@@ -32,8 +32,8 @@
             "#text": "Dedopali"
           },
           "athlete": {
-            "jerseyNumber": "7",
-            "captain": null
+            "jerseyNumber": 7,
+            "captain": {}
           }
         },
         {
@@ -61,8 +61,8 @@
             }
           ],
           "athlete": {
-            "jerseyNumber": "10",
-            "captain": null
+            "jerseyNumber": 10,
+            "captain": {}
           }
         },
         {
@@ -76,7 +76,7 @@
           },
           "birthDate": "2003-08-28T00:00:00Z",
           "athlete": {
-            "jerseyNumber": "9"
+            "jerseyNumber": 9
           }
         }
       ]

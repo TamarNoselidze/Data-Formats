@@ -1,11 +1,12 @@
 {
-    "root": {
-      "@xmlns:xml": "http://www.w3.org/XML/1998/namespace",
-      "sportsEvent": [
-        {
-          "startDate": "2023-08-28T14:00:00Z",
-          "score": "112-97",
-          "gamesInLeague": {
+  "root": {
+    "@xmlns:xml": "http://www.w3.org/XML/1998/namespace",
+    "sportsEvent": [
+      {
+        "startDate": "2023-08-28T14:00:00Z",
+        "score": "112-97",
+        "gamesInLeague": [
+          {
             "label": {
               "@xml:lang": "en",
               "#text": "nba"
@@ -18,26 +19,32 @@
               "@xml:lang": "en",
               "#text": "summer"
             }
-          },
-          "homeTeam": {
+          }
+        ],
+        "homeTeam": [
+          {
             "label": {
               "@xml:lang": "en",
               "#text": "Knicks"
             },
-            "teamValue": "9214.947"
-          },
-          "awayTeam": {
+            "teamValue": 9214.947
+          }
+        ],
+        "awayTeam": [
+          {
             "label": {
               "@xml:lang": "en",
               "#text": "Lakers"
             },
-            "teamValue": "2934.8"
+            "teamValue": 2934.8
           }
-        },
-        {
-          "startDate": "2023-08-30T14:00:00Z",
-          "score": "96-104",
-          "gamesInLeague": {
+        ]
+      },
+      {
+        "startDate": "2023-08-30T14:00:00Z",
+        "score": "96-104",
+        "gamesInLeague": [
+          {
             "label": {
               "@xml:lang": "en",
               "#text": "wnba"
@@ -50,26 +57,32 @@
               "@xml:lang": "en",
               "#text": "summer"
             }
-          },
-          "homeTeam": {
+          }
+        ],
+        "homeTeam": [
+          {
             "label": {
               "@xml:lang": "en",
               "#text": "Bulls"
             },
-            "teamValue": "7528.99"
-          },
-          "awayTeam": {
+            "teamValue": 7528.99
+          }
+        ],
+        "awayTeam": [
+          {
             "label": {
               "@xml:lang": "en",
               "#text": "Lakers"
             },
-            "teamValue": "2934.8"
+            "teamValue": 2934.8
           }
-        },
-        {
-          "startDate": "2023-08-26T14:00:00Z",
-          "score": "132-135",
-          "gamesInLeague": {
+        ]
+      },
+      {
+        "startDate": "2023-08-26T14:00:00Z",
+        "score": "132-135",
+        "gamesInLeague": [
+          {
             "label": {
               "@xml:lang": "en",
               "#text": "nba"
@@ -82,23 +95,27 @@
               "@xml:lang": "en",
               "#text": "summer"
             }
-          },
-          "homeTeam": {
+          }
+        ],
+        "homeTeam": [
+          {
             "label": {
               "@xml:lang": "en",
               "#text": "Bulls"
             },
-            "teamValue": "7528.99"
-          },
-          "awayTeam": {
+            "teamValue": 7528.99
+          }
+        ],
+        "awayTeam": [
+          {
             "label": {
               "@xml:lang": "en",
               "#text": "Knicks"
             },
-            "teamValue": "9214.947"
+            "teamValue": 9214.947
           }
-        }
-      ]
-    }
+        ]
+      }
+    ]
   }
-  
+}
