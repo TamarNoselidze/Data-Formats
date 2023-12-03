@@ -31,19 +31,16 @@
       <currentSeason xml:lang="en">summer</currentSeason>
     </leagueWinner>
     <playerInTeam>
-      <jerseyNumber>9</jerseyNumber>
-    </playerInTeam>
-    <playerInTeam>
       <jerseyNumber>10</jerseyNumber>
     </playerInTeam>
     <leadTeam>
-        <jerseyNumber>17</jerseyNumber>
+        <jerseyNumber>10</jerseyNumber>
     </leadTeam>
   </sportsTeam>
 
   <!-- Instance 2: SportsTeam -->
   <sportsTeam>
-    <label xml:lang="en">New York Knicks</label>
+    <label xml:lang="en">Knicks</label>
     <teamValue>9214.947</teamValue>
     <teamsInLeague>
       <label xml:lang="en">nba</label>
@@ -56,13 +53,13 @@
       <currentSeason xml:lang="en">summer</currentSeason>
     </leagueWinner>
     <playerInTeam>
-      <jerseyNumber>4</jerseyNumber>
+      <jerseyNumber>7</jerseyNumber>
     </playerInTeam>
     <playerInTeam>
-      <jerseyNumber>14</jerseyNumber>
+      <jerseyNumber>9</jerseyNumber>
     </playerInTeam>
     <leadTeam>
-        <jerseyNumber>1</jerseyNumber>
+        <jerseyNumber>7</jerseyNumber>
     </leadTeam>
   </sportsTeam>
 
@@ -81,13 +78,10 @@
       <currentSeason xml:lang="en">summer</currentSeason>
     </teamsInLeague>
     <playerInTeam>
-      <jerseyNumber>3</jerseyNumber>
-    </playerInTeam>
-    <playerInTeam>
-      <jerseyNumber>15</jerseyNumber>
+      <jerseyNumber>17</jerseyNumber>
     </playerInTeam>
     <leadTeam>
-        <jerseyNumber>8</jerseyNumber>
+        <jerseyNumber>17</jerseyNumber>
     </leadTeam>
   </sportsTeam>
 </root>
