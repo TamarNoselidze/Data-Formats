@@ -1,0 +1,3 @@
+(: Return Home Team label of the earliest sports event :)
+
+//sportsEvent[not(preceding-sibling::sportsEvent/startDate < startDate) and not(following-sibling::sportsEvent/startDate < startDate)]/homeTeam/label

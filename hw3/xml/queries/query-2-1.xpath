@@ -1,0 +1,3 @@
+(: Return name of the teams with a team value greater than a 3000 and participating in a nba league during the current summer season: :)
+
+//sportsTeam[teamValue > 3000 and teamsInLeague[label='nba' and currentSeason='summer']]/label/text()

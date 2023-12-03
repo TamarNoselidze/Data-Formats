@@ -1,0 +1,3 @@
+(: List Team labels participating in more than one League with different seasons :)
+
+//teamsInLeague[label = following-sibling::*/label or label = preceding-sibling::*/label]/label
