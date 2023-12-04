@@ -1,0 +1,99 @@
+_:b0    <http://dbpedia.org/ontology/sportsTeam>  _:b1 ;
+        <http://dbpedia.org/ontology/sportsTeam>  _:b2 ;
+        <http://dbpedia.org/ontology/sportsTeam>  _:b3 .
+
+_:b1    <ex:leagueWinner>   _:b4 ;
+        <ex:leagueWinner>   _:b5 ;
+        <ex:teamValue>      2.9348E3 ;
+        <ex:teamsInLeague>  _:b6 ;
+        <ex:teamsInLeague>  _:b7 ;
+        <ex:teamsInLeague>  _:b8 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b9 .
+
+_:b10   <http://www.w3.org/2001/XMLSchema#string>  "nba"@en .
+
+_:b6    <ex:prize>  6000 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b11 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b12 .
+
+_:b11   <http://www.w3.org/2001/XMLSchema#string>  "summer"@en .
+
+_:b12   <http://www.w3.org/2001/XMLSchema#string>  "wnba"@en .
+
+_:b7    <ex:prize>  500 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b13 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b14 .
+
+_:b13   <http://www.w3.org/2001/XMLSchema#string>  "winter"@en .
+
+_:b14   <http://www.w3.org/2001/XMLSchema#string>  "fiba"@en .
+
+_:b9    <http://www.w3.org/2001/XMLSchema#string>  "Lakers"@en .
+
+_:b2    <ex:leagueWinner>   _:b15 ;
+        <ex:teamValue>      9.214947E3 ;
+        <ex:teamsInLeague>  _:b16 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b17 .
+
+_:b15   <ex:prize>  3000 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b18 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b19 .
+
+_:b4    <ex:prize>  500 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b20 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b21 .
+
+_:b18   <http://www.w3.org/2001/XMLSchema#string>  "summer"@en .
+
+_:b19   <http://www.w3.org/2001/XMLSchema#string>  "nba"@en .
+
+_:b16   <ex:prize>  3000 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b22 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b23 .
+
+_:b22   <http://www.w3.org/2001/XMLSchema#string>  "summer"@en .
+
+_:b23   <http://www.w3.org/2001/XMLSchema#string>  "nba"@en .
+
+_:b17   <http://www.w3.org/2001/XMLSchema#string>  "Knicks"@en .
+
+_:b3    <ex:teamValue>      7.52899E3 ;
+        <ex:teamsInLeague>  _:b24 ;
+        <ex:teamsInLeague>  _:b25 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b26 .
+
+_:b24   <ex:prize>  3000 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b27 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b28 .
+
+_:b27   <http://www.w3.org/2001/XMLSchema#string>  "summer"@en .
+
+_:b28   <http://www.w3.org/2001/XMLSchema#string>  "nba"@en .
+
+_:b20   <http://www.w3.org/2001/XMLSchema#string>  "winter"@en .
+
+_:b25   <ex:prize>  6000 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b29 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b30 .
+
+_:b29   <http://www.w3.org/2001/XMLSchema#string>  "summer"@en .
+
+_:b30   <http://www.w3.org/2001/XMLSchema#string>  "wnba"@en .
+
+_:b26   <http://www.w3.org/2001/XMLSchema#string>  "Bulls"@en .
+
+_:b21   <http://www.w3.org/2001/XMLSchema#string>  "fiba"@en .
+
+_:b5    <ex:prize>  6000 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b31 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b32 .
+
+_:b31   <http://www.w3.org/2001/XMLSchema#string>  "summer"@en .
+
+_:b32   <http://www.w3.org/2001/XMLSchema#string>  "wnba"@en .
+
+_:b8    <ex:prize>  3000 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b33 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b10 .
+
+_:b33   <http://www.w3.org/2001/XMLSchema#string>  "summer"@en .

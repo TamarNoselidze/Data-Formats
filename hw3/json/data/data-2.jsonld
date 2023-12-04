@@ -1,161 +1,173 @@
 {
-    "root": {
-      "@xmlns:xml": "http://www.w3.org/XML/1998/namespace",
-      "sportsTeam": [
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "@language": "en",
+
+    "teamValue": "ex:teamValue",
+    "#text": "xsd:string",
+    "label": "rdfs:label",
+    "teamsInLeague": "ex:teamsInLeague",
+    "prize": "ex:prize",
+    "currentSeason": "dbo:currentSeason",
+    "leagueWinner": "ex:leagueWinner",
+    "sportsTeam": "dbo:sportsTeam"
+  },
+  "sportsTeam": [
+    {
+      "label": {
+        "@xml:lang": "en",
+        "#text": "Lakers"
+      },
+      "teamValue": 2934.8,
+      "teamsInLeague": [
         {
           "label": {
             "@xml:lang": "en",
-            "#text": "Lakers"
+            "#text": "nba"
           },
-          "teamValue": 2934.8,
-          "teamsInLeague": [
-            {
-              "label": {
-                "@xml:lang": "en",
-                "#text": "nba"
-              },
-              "prize": 3000,
-              "currentSeason": {
-                "@xml:lang": "en",
-                "#text": "summer"
-              }
-            },
-            {
-              "label": {
-                "@xml:lang": "en",
-                "#text": "wnba"
-              },
-              "prize": 6000,
-              "currentSeason": {
-                "@xml:lang": "en",
-                "#text": "summer"
-              }
-            },
-            {
-              "label": {
-                "@xml:lang": "en",
-                "#text": "fiba"
-              },
-              "prize": 500,
-              "currentSeason": {
-                "@xml:lang": "en",
-                "#text": "winter"
-              }
-            }
-          ],
-          "leagueWinner": [
-            {
-              "label": {
-                "@xml:lang": "en",
-                "#text": "fiba"
-              },
-              "prize": 500,
-              "currentSeason": {
-                "@xml:lang": "en",
-                "#text": "winter"
-              }
-            },
-            {
-              "label": {
-                "@xml:lang": "en",
-                "#text": "wnba"
-              },
-              "prize": 6000,
-              "currentSeason": {
-                "@xml:lang": "en",
-                "#text": "summer"
-              }
-            }
-          ],
-          "playerInTeam": {
-            "jerseyNumber": 10
-          },
-          "leadTeam": {
-            "jerseyNumber": 10
+          "prize": 3000,
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "summer"
           }
         },
         {
           "label": {
             "@xml:lang": "en",
-            "#text": "Knicks"
+            "#text": "wnba"
           },
-          "teamValue": 9214.947,
-          "teamsInLeague": [
-            {
-              "label": {
-                "@xml:lang": "en",
-                "#text": "nba"
-              },
-              "prize": 3000,
-              "currentSeason": {
-                "@xml:lang": "en",
-                "#text": "summer"
-              }
-            }
-          ],
-          "leagueWinner": [
-            {
-              "label": {
-                "@xml:lang": "en",
-                "#text": "nba"
-              },
-              "prize": 3000,
-              "currentSeason": {
-                "@xml:lang": "en",
-                "#text": "summer"
-              }
-            }
-          ],
-          "playerInTeam": [
-            {
-              "jerseyNumber": 7
-            },
-            {
-              "jerseyNumber": 9
-            }
-          ],
-          "leadTeam": {
-            "jerseyNumber": 7
+          "prize": 6000,
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "summer"
           }
         },
         {
           "label": {
             "@xml:lang": "en",
-            "#text": "Bulls"
+            "#text": "fiba"
           },
-          "teamValue": 7528.99,
-          "teamsInLeague": [
-            {
-              "label": {
-                "@xml:lang": "en",
-                "#text": "nba"
-              },
-              "prize": 3000,
-              "currentSeason": {
-                "@xml:lang": "en",
-                "#text": "summer"
-              }
-            },
-            {
-              "label": {
-                "@xml:lang": "en",
-                "#text": "wnba"
-              },
-              "prize": 6000,
-              "currentSeason": {
-                "@xml:lang": "en",
-                "#text": "summer"
-              }
-            }
-          ],
-          "playerInTeam": {
-            "jerseyNumber": 17
-          },
-          "leadTeam": {
-            "jerseyNumber": 17
+          "prize": 500,
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "winter"
           }
         }
-      ]
+      ],
+      "leagueWinner": [
+        {
+          "label": {
+            "@xml:lang": "en",
+            "#text": "fiba"
+          },
+          "prize": 500,
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "winter"
+          }
+        },
+        {
+          "label": {
+            "@xml:lang": "en",
+            "#text": "wnba"
+          },
+          "prize": 6000,
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "summer"
+          }
+        }
+      ],
+      "playerInTeam": {
+        "jerseyNumber": 10
+      },
+      "leadTeam": {
+        "jerseyNumber": 10
+      }
+    },
+    {
+      "label": {
+        "@xml:lang": "en",
+        "#text": "Knicks"
+      },
+      "teamValue": 9214.947,
+      "teamsInLeague": [
+        {
+          "label": {
+            "@xml:lang": "en",
+            "#text": "nba"
+          },
+          "prize": 3000,
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "summer"
+          }
+        }
+      ],
+      "leagueWinner": [
+        {
+          "label": {
+            "@xml:lang": "en",
+            "#text": "nba"
+          },
+          "prize": 3000,
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "summer"
+          }
+        }
+      ],
+      "playerInTeam": [
+        {
+          "jerseyNumber": 7
+        },
+        {
+          "jerseyNumber": 9
+        }
+      ],
+      "leadTeam": {
+        "jerseyNumber": 7
+      }
+    },
+    {
+      "label": {
+        "@xml:lang": "en",
+        "#text": "Bulls"
+      },
+      "teamValue": 7528.99,
+      "teamsInLeague": [
+        {
+          "label": {
+            "@xml:lang": "en",
+            "#text": "nba"
+          },
+          "prize": 3000,
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "summer"
+          }
+        },
+        {
+          "label": {
+            "@xml:lang": "en",
+            "#text": "wnba"
+          },
+          "prize": 6000,
+          "currentSeason": {
+            "@xml:lang": "en",
+            "#text": "summer"
+          }
+        }
+      ],
+      "playerInTeam": {
+        "jerseyNumber": 17
+      },
+      "leadTeam": {
+        "jerseyNumber": 17
+      }
     }
-  }
-  
+  ]
+}

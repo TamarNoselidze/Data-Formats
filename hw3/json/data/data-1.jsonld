@@ -1,85 +1,100 @@
 {
-    "root": {
-      "@xmlns:xml": "http://www.w3.org/XML/1998/namespace",
-      "person": [
-        {
-          "firstName": {
-            "@xml:lang": "en",
-            "#text": "Avaz"
-          },
-          "surname": {
-            "@xml:lang": "en",
-            "#text": "Ahmadov"
-          },
-          "birthDate": "2003-11-27T00:00:00Z",
-          "athlete": {
-            "jerseyNumber": 17,
-            "captain": {}
-          }
+  "@context": {
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "dbo": "http://dbpedia.org/ontology/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+
+      "@language": "en",
+      
+      "Person": "foaf:Person",
+      "firstName": "foaf:firstName",
+      "surname": "foaf:surname",
+      "middleName": "vivo:middleName",
+      "birthDate": "xsd:dateTime",
+      "athlete": "dbo:Athlete",
+      "captain": "ex:captain",
+      "jerseyNumber": "ex:jerseyNumber",
+      "#text": "xsd:string"
+  },
+
+    "Person": [
+      {
+        "firstName": {
+          "@xml:lang": "en",
+          "#text": "Avaz"
         },
-        {
-          "firstName": {
-            "@xml:lang": "en",
-            "#text": "Tamara"
-          },
-          "surname": {
-            "@xml:lang": "en",
-            "#text": "Noselidze"
-          },
-          "birthDate": "2002-11-26T00:00:00Z",
-          "middleName": {
-            "@xml:lang": "es",
-            "#text": "Dedopali"
-          },
-          "athlete": {
-            "jerseyNumber": 7,
-            "captain": {}
-          }
+        "surname": {
+          "@xml:lang": "en",
+          "#text": "Ahmadov"
         },
-        {
-          "firstName": {
-            "@xml:lang": "en",
-            "#text": "Kareem"
-          },
-          "surname": {
-            "@xml:lang": "en",
-            "#text": "Elsewirky"
-          },
-          "birthDate": "2002-04-20T00:00:00Z",
-          "middleName": [
-            {
-              "@xml:lang": "en",
-              "#text": "Hamed"
-            },
-            {
-              "@xml:lang": "en",
-              "#text": "Osman"
-            },
-            {
-              "@xml:lang": "en",
-              "#text": "Abdelaal"
-            }
-          ],
-          "athlete": {
-            "jerseyNumber": 10,
-            "captain": {}
-          }
-        },
-        {
-          "firstName": {
-            "@xml:lang": "en",
-            "#text": "Penda"
-          },
-          "surname": {
-            "@xml:lang": "en",
-            "#text": "Smajljaj"
-          },
-          "birthDate": "2003-08-28T00:00:00Z",
-          "athlete": {
-            "jerseyNumber": 9
-          }
+        "birthDate": "2003-11-27T00:00:00Z",
+        "athlete": {
+          "jerseyNumber": 17,
+          "captain": {}
         }
-      ]
-    }
-  }
-  
+      },
+      {
+        "firstName": {
+          "@xml:lang": "en",
+          "#text": "Tamara"
+        },
+        "surname": {
+          "@xml:lang": "en",
+          "#text": "Noselidze"
+        },
+        "birthDate": "2002-11-26T00:00:00Z",
+        "middleName": {
+          "@xml:lang": "es",
+          "#text": "Dedopali"
+        },
+        "athlete": {
+          "jerseyNumber": 7,
+          "captain": {}
+        }
+      },
+      {
+        "firstName": {
+          "@xml:lang": "en",
+          "#text": "Kareem"
+        },
+        "surname": {
+          "@xml:lang": "en",
+          "#text": "Elsewirky"
+        },
+        "birthDate": "2002-04-20T00:00:00Z",
+        "middleName": [
+          {
+            "@xml:lang": "en",
+            "#text": "Hamed"
+          },
+          {
+            "@xml:lang": "en",
+            "#text": "Osman"
+          },
+          {
+            "@xml:lang": "en",
+            "#text": "Abdelaal"
+          }
+        ],
+        "athlete": {
+          "jerseyNumber": 10,
+          "captain": {}
+        }
+      },
+      {
+        "firstName": {
+          "@xml:lang": "en",
+          "#text": "Penda"
+        },
+        "surname": {
+          "@xml:lang": "en",
+          "#text": "Smajljaj"
+        },
+        "birthDate": "2003-08-28T00:00:00Z",
+        "athlete": {
+          "jerseyNumber": 9
+        }
+      }
+    ]
+}

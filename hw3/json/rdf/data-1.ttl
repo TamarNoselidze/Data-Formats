@@ -1,0 +1,63 @@
+_:b0    <http://xmlns.com/foaf/0.1/Person>  _:b1 ;
+        <http://xmlns.com/foaf/0.1/Person>  _:b2 ;
+        <http://xmlns.com/foaf/0.1/Person>  _:b3 ;
+        <http://xmlns.com/foaf/0.1/Person>  _:b4 .
+
+_:b1    <http://dbpedia.org/ontology/Athlete>  _:b5 ;
+        <http://www.w3.org/2001/XMLSchema#dateTime>  "2003-11-27T00:00:00Z"@en ;
+        <http://xmlns.com/foaf/0.1/firstName>  _:b6 ;
+        <http://xmlns.com/foaf/0.1/surname>  _:b7 .
+
+_:b8    <http://www.w3.org/2001/XMLSchema#string>  "Noselidze"@en .
+
+_:b9    <http://www.w3.org/2001/XMLSchema#string>  "Dedopali"@en .
+
+_:b2    <http://dbpedia.org/ontology/Athlete>  _:b10 ;
+        <http://www.w3.org/2001/XMLSchema#dateTime>  "2002-04-20T00:00:00Z"@en ;
+        <http://xmlns.com/foaf/0.1/firstName>  _:b11 ;
+        <http://xmlns.com/foaf/0.1/surname>  _:b12 ;
+        <vivo:middleName>  _:b13 ;
+        <vivo:middleName>  _:b14 ;
+        <vivo:middleName>  _:b15 .
+
+_:b10   <ex:captain>       _:b16 ;
+        <ex:jerseyNumber>  10 .
+
+_:b11   <http://www.w3.org/2001/XMLSchema#string>  "Kareem"@en .
+
+_:b12   <http://www.w3.org/2001/XMLSchema#string>  "Elsewirky"@en .
+
+_:b13   <http://www.w3.org/2001/XMLSchema#string>  "Hamed"@en .
+
+_:b14   <http://www.w3.org/2001/XMLSchema#string>  "Osman"@en .
+
+_:b15   <http://www.w3.org/2001/XMLSchema#string>  "Abdelaal"@en .
+
+_:b5    <ex:captain>       _:b17 ;
+        <ex:jerseyNumber>  17 .
+
+_:b3    <http://dbpedia.org/ontology/Athlete>  _:b18 ;
+        <http://www.w3.org/2001/XMLSchema#dateTime>  "2003-08-28T00:00:00Z"@en ;
+        <http://xmlns.com/foaf/0.1/firstName>  _:b19 ;
+        <http://xmlns.com/foaf/0.1/surname>  _:b20 .
+
+_:b18   <ex:jerseyNumber>  9 .
+
+_:b19   <http://www.w3.org/2001/XMLSchema#string>  "Penda"@en .
+
+_:b20   <http://www.w3.org/2001/XMLSchema#string>  "Smajljaj"@en .
+
+_:b6    <http://www.w3.org/2001/XMLSchema#string>  "Avaz"@en .
+
+_:b7    <http://www.w3.org/2001/XMLSchema#string>  "Ahmadov"@en .
+
+_:b4    <http://dbpedia.org/ontology/Athlete>  _:b21 ;
+        <http://www.w3.org/2001/XMLSchema#dateTime>  "2002-11-26T00:00:00Z"@en ;
+        <http://xmlns.com/foaf/0.1/firstName>  _:b22 ;
+        <http://xmlns.com/foaf/0.1/surname>  _:b8 ;
+        <vivo:middleName>  _:b9 .
+
+_:b21   <ex:captain>       _:b23 ;
+        <ex:jerseyNumber>  7 .
+
+_:b22   <http://www.w3.org/2001/XMLSchema#string>  "Tamara"@en .

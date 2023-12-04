@@ -1,6 +1,23 @@
-{
-  "root": {
-    "@xmlns:xml": "http://www.w3.org/XML/1998/namespace",
+{"@context": {
+  "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+  "schema": "https://schema.org/",
+  "ex": "http://example.org/vocabulary/",
+  "dbo": "https://dbpedia.org/ontology/",
+  "@language": "en",
+
+  "teamValue": "ex:teamValue",
+  "currentSeason": "dbo:currentSeason",
+  "prize": "ex:prize",
+  "label": "rdfs:label",
+  "sportsEvent": "schema:sportsEvent",
+  "startDate": "schema:startDate",
+  "score": "ex:score",
+  "gamesInLeague": "ex:gamesInLeague",
+  "homeTeam": "schema:homeTeam",
+  "awayTeam": "schema:awayTeam",
+  "#text": "xsd:string"
+
+  },
     "sportsEvent": [
       {
         "startDate": "2023-08-28T14:00:00Z",
@@ -117,5 +134,4 @@
         ]
       }
     ]
-  }
 }

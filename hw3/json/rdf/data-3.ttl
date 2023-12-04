@@ -1,0 +1,81 @@
+_:b0    <https://schema.org/sportsEvent>  _:b1 ;
+        <https://schema.org/sportsEvent>  _:b2 ;
+        <https://schema.org/sportsEvent>  _:b3 .
+
+_:b1    <http://example.org/vocabulary/gamesInLeague>  _:b4 ;
+        <http://example.org/vocabulary/score>  "112-97"@en ;
+        <https://schema.org/awayTeam>   _:b5 ;
+        <https://schema.org/homeTeam>   _:b6 ;
+        <https://schema.org/startDate>  "2023-08-28T14:00:00Z"@en .
+
+_:b2    <http://example.org/vocabulary/gamesInLeague>  _:b7 ;
+        <http://example.org/vocabulary/score>  "96-104"@en ;
+        <https://schema.org/awayTeam>   _:b8 ;
+        <https://schema.org/homeTeam>   _:b9 ;
+        <https://schema.org/startDate>  "2023-08-30T14:00:00Z"@en .
+
+_:b7    <http://example.org/vocabulary/prize>  _:b10 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b11 ;
+        <https://dbpedia.org/ontology/currentSeason>  _:b12 .
+
+_:b10   <xsd:string>  "6000"@en .
+
+_:b11   <xsd:string>  "wnba"@en .
+
+_:b12   <xsd:string>  "summer"@en .
+
+_:b8    <http://example.org/vocabulary/teamValue>  2.9348E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b13 .
+
+_:b13   <xsd:string>  "Lakers"@en .
+
+_:b9    <http://example.org/vocabulary/teamValue>  7.52899E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b14 .
+
+_:b14   <xsd:string>  "Bulls"@en .
+
+_:b3    <http://example.org/vocabulary/gamesInLeague>  _:b15 ;
+        <http://example.org/vocabulary/score>  "132-135"@en ;
+        <https://schema.org/awayTeam>   _:b16 ;
+        <https://schema.org/homeTeam>   _:b17 ;
+        <https://schema.org/startDate>  "2023-08-26T14:00:00Z"@en .
+
+_:b4    <http://example.org/vocabulary/prize>  _:b18 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b19 ;
+        <https://dbpedia.org/ontology/currentSeason>  _:b20 .
+
+_:b15   <http://example.org/vocabulary/prize>  _:b21 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b22 ;
+        <https://dbpedia.org/ontology/currentSeason>  _:b23 .
+
+_:b21   <xsd:string>  "3000"@en .
+
+_:b22   <xsd:string>  "nba"@en .
+
+_:b23   <xsd:string>  "summer"@en .
+
+_:b16   <http://example.org/vocabulary/teamValue>  9.214947E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b24 .
+
+_:b24   <xsd:string>  "Knicks"@en .
+
+_:b17   <http://example.org/vocabulary/teamValue>  7.52899E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b25 .
+
+_:b25   <xsd:string>  "Bulls"@en .
+
+_:b18   <xsd:string>  "3000"@en .
+
+_:b19   <xsd:string>  "nba"@en .
+
+_:b20   <xsd:string>  "summer"@en .
+
+_:b5    <http://example.org/vocabulary/teamValue>  2.9348E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b26 .
+
+_:b26   <xsd:string>  "Lakers"@en .
+
+_:b6    <http://example.org/vocabulary/teamValue>  9.214947E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b27 .
+
+_:b27   <xsd:string>  "Knicks"@en .

@@ -1,0 +1,83 @@
+_:b0    <http://dbpedia.org/ontology/SportsLeague>  _:b1 ;
+        <http://dbpedia.org/ontology/SportsLeague>  _:b2 ;
+        <http://dbpedia.org/ontology/SportsLeague>  _:b3 .
+
+_:b1    <ex:leagueWinner>   _:b4 ;
+        <ex:prize>          _:b5 ;
+        <ex:teamsInLeague>  _:b6 ;
+        <ex:teamsInLeague>  _:b7 ;
+        <ex:teamsInLeague>  _:b8 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b9 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b10 .
+
+_:b11   <xsd:string>  "Bulls"@en .
+
+_:b9    <xsd:string>  "summer"@en .
+
+_:b10   <xsd:string>  "nba"@en .
+
+_:b2    <ex:leagueWinner>   _:b12 ;
+        <ex:prize>          6000 ;
+        <ex:teamsInLeague>  _:b13 ;
+        <ex:teamsInLeague>  _:b14 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b15 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b16 .
+
+_:b12   <ex:teamValue>  2.9348E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b17 .
+
+_:b17   <xsd:string>  "Lakers"@en .
+
+_:b13   <ex:teamValue>  2.9348E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b18 .
+
+_:b18   <xsd:string>  "Lakers"@en .
+
+_:b14   <ex:teamValue>  7.52899E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b19 .
+
+_:b19   <xsd:string>  "Bulls"@en .
+
+_:b4    <ex:teamValue>  9.214947E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b20 .
+
+_:b15   <xsd:string>  "summer"@en .
+
+_:b16   <xsd:string>  "wnba"@en .
+
+_:b3    <ex:leagueWinner>   _:b21 ;
+        <ex:prize>          500 ;
+        <ex:teamsInLeague>  _:b22 ;
+        <http://dbpedia.org/ontology/currentSeason>  _:b23 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b24 .
+
+_:b21   <ex:teamValue>  2.9348E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b25 .
+
+_:b25   <xsd:string>  "Lakers"@en .
+
+_:b22   <ex:teamValue>  2.9348E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b26 .
+
+_:b26   <xsd:string>  "Lakers"@en .
+
+_:b23   <xsd:string>  "winter"@en .
+
+_:b24   <xsd:string>  "fiba"@en .
+
+_:b20   <xsd:string>  "Knicks"@en .
+
+_:b5    <xsd:string>  "3000"@en .
+
+_:b6    <ex:teamValue>  2.9348E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b27 .
+
+_:b27   <xsd:string>  "Lakers"@en .
+
+_:b7    <ex:teamValue>  9.214947E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b28 .
+
+_:b28   <xsd:string>  "Knicks"@en .
+
+_:b8    <ex:teamValue>  7.52899E3 ;
+        <http://www.w3.org/2000/01/rdf-schema#label>  _:b11 .
